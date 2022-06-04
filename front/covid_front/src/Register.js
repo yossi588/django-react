@@ -104,10 +104,8 @@ crossorigin="anonymous"></script>
                     City: </label>
                 <select className="form-select" aria-label="Default select example"
                         name="City" value={City} onChange={(e)=>CityHandler(e.target.value)}>
-                    <option selected>Tel Aviv</option>
-                    <option value="">Jerusalem</option>
-                    <option value="">Haifa</option>
-                    <option value="">Ashdod</option>
+                    <option selected>New York</option>
+                    <option value="">Buffalo</option>
                 </select>
 
                 <label>Zip Code:</label>
